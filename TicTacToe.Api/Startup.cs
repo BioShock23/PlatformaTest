@@ -19,7 +19,7 @@ public static class Startup
            .AddTicTacToeServices()
            .AddApplicationDbContext()
            .AddIdentity();
-
+            // AddMapster() тоже надо, но я маппил все вручную. 
         return builder;
     }
 
